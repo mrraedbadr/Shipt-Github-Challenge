@@ -1,11 +1,12 @@
-console.log(process.argv)
+var GithubApi = require('./js/github_api');
 
-var argOne = process.argv[2];
-var argTwo = process.argv[3];
+// create new instance
+var github = new GithubApi();
 
-if (argOne === argTwo) {
-	console.log(true)
-}
-else {
-	console.log(false)
-}
+github.getUserInfo('msabree')
+.then((res) => {
+	console.log(res);
+})
+.catch((err) => {
+	console.log(err);
+})
