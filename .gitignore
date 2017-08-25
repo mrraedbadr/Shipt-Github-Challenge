@@ -1,2 +1,5 @@
 #ignore installed node modules
 node_modules/*
+
+#mac auto-generated file
+.DS_Store
