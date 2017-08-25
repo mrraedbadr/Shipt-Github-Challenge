@@ -1,0 +1,20 @@
+{
+  "name": "shipt_github_challenge",
+  "version": "1.0.0",
+  "description": "Search for github usernames and display user info.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "github",
+    "username",
+    "shipt"
+  ],
+  "author": "Makeen Sabree",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "request": "^2.81.0"
+  }
+}
