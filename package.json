@@ -13,8 +13,5 @@
   ],
   "author": "Makeen Sabree",
   "license": "ISC",
-  "dependencies": {
-    "angular": "^1.6.6",
-    "request": "^2.81.0"
-  }
+  "dependencies": {}
 }
